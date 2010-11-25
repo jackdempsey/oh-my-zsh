@@ -1,18 +1,22 @@
 # Aliases
 alias g='git'
 alias gst='git status'
-alias gl='git pull'
+alias gl='git log'
 alias gup='git fetch && git rebase'
-alias gp='git push'
-alias gd='git diff | mate'
+alias gp='git pull'
+alias gd='git diff'
 alias gdv='git diff -w "$@" | vim -R -'
 alias gc='git commit -v'
+alias ga='nocorrect git add'
 alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gcount='git shortlog -sn'
 alias gcp='git cherry-pick'
 alias glg='git log --stat --max-count=5'
+alias gco='git checkout'
+alias gsb='git show-branch'
+
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
