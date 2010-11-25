@@ -1,5 +1,6 @@
 # Aliases
-alias g='git'
+alias git='noglob git'
+alias g='nocorrect git'
 alias gst='git status'
 alias gl='git log'
 alias gup='git fetch && git rebase'
