@@ -43,3 +43,8 @@ alias tir='nocorrect tir'
 alias f='fossil'
 alias v='vagrant'
 alias orch='nocorrect orch'
+
+function edit_modified_files {
+  vim `git status | grep modified | awk '{print $3}'`
+}
+alias em=edit_modified_files
