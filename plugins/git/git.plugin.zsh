@@ -22,6 +22,7 @@ alias gco='git checkout'
 alias gsb='git show-branch'
 alias gri='git rebase -i'
 alias gf='git fetch'
+alias grm='git rebase master'
 
 # Git and svn mix
 alias git-svn-dcommit-push='git svn dcommit && git push github master:svntrunk'
