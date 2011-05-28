@@ -64,3 +64,4 @@ alias t='tail -f'
 
 alias rr='rake routes'
 alias h='heroku'
+alias tld='tail -f log/development.log'
